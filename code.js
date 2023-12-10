@@ -4,7 +4,7 @@ function binarySearch(list, element) {
         if(list[i] == element)
             return i;
 
-        if(list[i+2] <= element){
+        if(list[i] <= element){
             i = ((i*2)+2);
         }
         else{
